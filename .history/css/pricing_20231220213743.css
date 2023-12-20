@@ -1,0 +1,46 @@
+.pricing {
+    background-color: #F9F7FE;
+}
+.pricing .container {
+    width: 100%;
+}
+.pricing .container .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 25px;
+}
+.pricing .container .title h4 {
+    color: #F53626;
+    font-weight: 550;
+
+}
+.pricing .title h2{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    text-transform: capitalize;
+    color:#000C04;
+ }
+ .pricing .container .row {
+    display: flex;
+    gap: -100px;
+    border: 1px solid blue;
+
+ }
+ .pricing .container .row .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid blue;
+    background-color: #FFFFFF;
+
+ }
+ .pricing .container .row .card2 {
+    box-shadow: 0 10px 30px 0 rgba(17, 17, 17, 0.09);
+    padding: 0 30px;
+    z-index: 1;
+ }

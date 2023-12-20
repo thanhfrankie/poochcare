@@ -1,0 +1,28 @@
+.petfood .container .col .title {
+    padding: 0 20px;
+    text-align: center;
+}
+.petfood .container .col h5 {
+  color: #f53626;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 2em;
+  letter-spacing: 1px;
+}
+.petfood .container .col h2 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    text-transform: capitalize;
+}
+.petfood .container .col p{
+    font-size: 1.2em;
+    line-height: 28px;
+    color: #696969;
+    text-align: center;
+}
+.petfood .container .col iframe {
+    width: 100%;
+    margin-top: 20px;
+}

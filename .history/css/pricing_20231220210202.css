@@ -1,0 +1,10 @@
+.pricing .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 25px;
+}
+.pricing .title h4 {
+    color: #F53626;
+}

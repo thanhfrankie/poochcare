@@ -1,0 +1,25 @@
+.pricing .container .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 25px;
+}
+.pricing .container .title h4 {
+    color: #F53626;
+    font-weight: 550;
+
+}
+.pricing .title h2{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    text-transform: capitalize;
+ }
+ .pricing .container .row .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+ }
