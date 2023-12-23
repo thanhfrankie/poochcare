@@ -1,0 +1,15 @@
+footer {
+  background-color: #111111;
+}
+footer h3 {
+  color: #ffffff;
+}
+footer li,
+footer a,
+footer i {
+  color: #696969;
+}
+footer a:hover, footer i:hover {
+  color: #ffffff;
+}
+footer footer

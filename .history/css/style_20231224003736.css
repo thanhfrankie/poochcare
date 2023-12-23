@@ -43,7 +43,6 @@ a {
 }
 .backToTop:hover {
   transform: translateY(-10px);
-  color: white;
 }
 .cd-top--is-visible {
   visibility: visible;

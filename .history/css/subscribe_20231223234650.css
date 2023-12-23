@@ -1,0 +1,11 @@
+.subscribe .subscribe__content {
+  text-align: center;
+}
+.subscribe .container h2 {
+  font-weight: 600;
+}
+.subscribe .container p {
+    text-align: center;
+  font-size: 20px;
+  height: 100px;
+}

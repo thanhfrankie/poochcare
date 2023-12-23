@@ -21,14 +21,8 @@ footer .footer__social li{
 
 footer .copyright {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     margin-top: 20px;
-    padding-top: 20px;
+    padding-top: 2;
     border-top: 1px solid rgba(103, 99, 99, 0.14);
-}
-footer .copyright a {
-    color: #f53626;
 }

@@ -41,10 +41,7 @@ a {
   opacity: 0;
   border-radius:50%;
 }
-.backToTop:hover {
-  transform: translateY(-10px);
-  color: white;
-}
+
 .cd-top--is-visible {
   visibility: visible;
   opacity: 1;

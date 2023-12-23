@@ -26,7 +26,7 @@ a {
 .backToTop {
   width: 50px;
   height: 50px;
-  background:#189A46;
+  background: #f55f8d;
   border-radius: 8px;
   line-height: 50px;
   text-align: center;
@@ -39,12 +39,8 @@ a {
   box-shadow: -4px 4px 24px -10px #f55f8d;
   visibility: hidden;
   opacity: 0;
-  border-radius:50%;
 }
-.backToTop:hover {
-  transform: translateY(-10px);
-  color: white;
-}
+
 .cd-top--is-visible {
   visibility: visible;
   opacity: 1;
