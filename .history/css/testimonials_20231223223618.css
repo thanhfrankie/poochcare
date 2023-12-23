@@ -1,0 +1,126 @@
+.testimonial {
+    position: relative;
+    border: 1px solid;
+  }
+  
+  .testimonial__title {
+    text-align: center;
+  }
+  
+  .testimonial__content {
+    width: 700px;
+    margin: auto;
+  }
+  
+  .testimonial__mcarousel .img__center {
+    width: 85px;
+    height: 85px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  
+  .owl-carousel .owl-item img {
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .testimonial__mcarousel .fa-quote-left {
+    font-size: 22px;
+    color: #f60;
+  }
+  
+  .testimonial blockquote {
+    margin: 0 0 1rem;
+  }
+  .testimonial q {
+    font-size: 24px;
+    line-height: 36px;
+    color: #232121;
+    font-weight: 550;
+    font-style: italic;
+    letter-spacing: 1px;
+  }
+  
+  .testimonial .testimonial__mcarousel p {
+    font-size: 18px;
+    font-style: normal;
+    margin-bottom: 0;
+    line-height: 28px;
+    color: rgba(22 28 45 0.7);
+  }
+  
+  .people-info h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    color: #232221;
+  }
+  
+  .people-info .indentity {
+    font-size: 18px;
+    font-style: normal;
+    margin-bottom: 0;
+    opacity: 0.8;
+    margin-top: 4px;
+  }
+  
+  .testimonial .owl-carousel .owl-dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -50px;
+    background: none;
+    height: 27px;
+  }
+  
+  .testimonial .owl-carousel .owl-dot {
+    width: 26px;
+    height: 22px;
+    display: inline-block;
+  }
+  
+  .testimonial .owl-carousel .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 2px;
+    background: #d8d8d8;
+    display: inline-block;
+    border-radius: 30px;
+    transition: 0.2s ease;
+    position: relative;
+  }
+  
+  .owl-theme .owl-dots .owl-dot.active span,
+  .owl-theme .owl-dots .owl-dot:hover span {
+    background: #f60;
+  }
+  
+  /* Responsive */
+  @media (min-width: 360px) {
+    .testimonial__content {
+      width: 300px;
+    }
+  }
+  
+  @media (min-width: 575px) {
+    .testimonial__content {
+      width: 475px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .testimonial__content {
+      width: 658px;
+    }
+  }
+  
+  @media (min-width: 991px) {
+    .testimonial__content {
+      width: 700px;
+    }
+  }
