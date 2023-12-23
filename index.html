@@ -25,11 +25,312 @@
     />
     <!-- Main CSS -->
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/features.css">
+    <link rel="stylesheet" href="./css/content.css">
+    <link rel="stylesheet" href="./css/services.css">
   </head>
   <body>
-    <header>Demo header 1</header>
+    <header>
+      <div class="container">
+        <div class="header_content">
+          <a class="header_logo" href="#">
+            <i class="fa-brands fa-atlassian"></i>
+            <!-- <p></p>: block => xử lý css để thẻ p nằm chung hàng với i -->
+            <!-- span: inline => nằm chung hàng với i -->
+            <span>Pooch Care</span>
+          </a>
+          <nav>
+            <!-- ul>li*6>a -->
+            <ul>
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">about</a></li>  
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Galerry</a></li>
+              <li><a href="#">Page</a></li>
+              <li><a href="#">Contact</a></li>
+              <a href="#" class="activities__icon" >
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <!-- Main slider -->
+      <section class="w3l-main-slider" id="home">
+        <div class="companies20-content">
+          <div class="owl-one owl-carousel owl-theme">
+            <div class="item">
+              <li>
+                <div class="slider-info banner-view">
+                  <style>
+                    .w3l-main-slider .banner-view {
+                      background: url(https://wp.w3layouts.com/poochcare/wp-content/themes/Pooch-care/assets/images/banner1.jpg);
+                      background-size: cover;
+                    }
+                  </style>
+                  <div class="banner-info">
+                    <div class="container">
+                      <div class="banner-info-bg text-left">
+                        <h5 class="BannerSlider">Quality Things for Loving Pets</h5>
+                        <p>Keeps your Pet Smiling</p>
+                        <a class="btn btn-style btn-white mt-sm-5 mt-4 mr-2" href="about">
+                          Read More</a>
+                        <a class="btn btn-style border-btn mt-sm-5 mt-4" href="contact">
+                          Contact Us</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </div>
+            <div class="item">
+              <li>
+                <div class="slider-info  banner-view banner-top1">
+                  <style>
+                    .w3l-main-slider .banner-top1 {
+                      background: url(https://wp.w3layouts.com/poochcare/wp-content/themes/Pooch-care/assets/images/banner2.jpg);
+                      background-size: cover;
+                    }
+                  </style>
+                  <div class="banner-info">
+                    <div class="container">
+                      <div class="banner-info-bg ml-lg-auto">
+                        <h5>Delivering happiness for Pets</h5>
+                        <p>For the love of pets </p>
+                        <a class="btn btn-style btn-white mt-sm-5 mt-4 mr-2" href="about">
+                          Read More</a>
+                        <a class="btn btn-style border-btn mt-sm-5 mt-4"
+                          href="contact">
+                          Contact Us</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </div>
+            <div class="item">
+              <li>
+                <div class="slider-info banner-view banner-top2">
+                  <style>
+                    .w3l-main-slider .banner-top2 {
+                      background: url(https://wp.w3layouts.com/poochcare/wp-content/themes/Pooch-care/assets/images/banner3.jpg);
+                      background-size: cover;
+                    }
+                  </style>
+                  <div class="banner-info">
+                    <div class="container">
+                      <div class="banner-info-bg text-left">
+      
+                        <h5>Quality Things for Loving Pets</h5>
+                        <p>Keeps your Pet Smiling</p>
+                        <a class="btn btn-style btn-white mt-sm-5 mt-4 mr-2" href="about">
+                          Read More</a>
+                        <a class="btn btn-style border-btn mt-sm-5 mt-4"
+                          href="contact">Contact Us</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </div>
+            <div class="item">
+              <li>
+                <div class="slider-info banner-view banner-top3">
+                  <style>
+                    .w3l-main-slider .banner-top3 {
+                      background: url(https://wp.w3layouts.com/poochcare/wp-content/themes/Pooch-care/assets/images/banner4.jpg);
+                      background-size: cover;
+                    }
+                  </style>
+                  <div class="banner-info">
+                    <div class="container">
+                      <div class="banner-info-bg ml-lg-auto">
+                        <h5>Delivering happiness for Pets</h5>
+                        <p>We help your Projects</p>
+                        <a class="btn btn-style btn-white mt-sm-5 mt-4 mr-2"
+                          href="about">Read More</a>
+                        <a class="btn btn-style border-btn mt-sm-5 mt-4"
+                          href="contact">
+                          Contact Us</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /main-slider -->
+      
+      
+     <!-- Features -->
+      <section>
+        <div class="container" >
+          <h4 class="title" >ABOUT US</h4>
+          <h1 class="services-title" >We Love Your Pets Like They Are Our Own</h1>
+          <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic odio voluptatem tenetur consequatur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis.</p>
+          <a class="button-1" href="url">Read more</a>
+        </div>
+      </section>
+      <!-- features -->
+    
+
+      
+      <!-- Content -->
+    <section class="features py-5" id="features">
+      <div class="container pt-lg-5 pt-md-4 HPServices">
+        <div class="grids-area-hny main-cont-wthree-fea row justify-content-center">
+    
+                      <div class="col-lg-4 col-sm-6 grids-feature">
+            <div class="area-box">
+              <div class="icon">
+                <span
+                  class="fa fa-snowflake-o"></span>
+              </div>
+              <h4><a href="#url" class="title-head">
+                  Dog Walking</a></h4>
+              <p>
+                Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.          </p>
+              <a href="#url" class="a-link">
+                Read More</a>
+            </div>
+          </div>
+          
+                      <div class="col-lg-4 col-sm-6 grids-feature mt-sm-0">
+            <div class="area-box mb-lg-0">
+              <div class="icon">
+                <span
+                  class="fa fa-cutlery"></span>
+              </div>
+              <h4><a href="#url"
+                  class="title-head">Healthy Meals</a>
+              </h4>
+              <p>
+                Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.          </p>
+              <a href="#url" class="a-link">
+                Read More</a>
+            </div>
+          </div>
+          
+                      <div class="col-lg-4 col-sm-6 grids-feature mt-lg-0">
+            <div class="area-box mb-lg-0">
+              <div class="icon">
+                <span
+                  class="fa fa-sign-language"></span>
+              </div>
+              <h4><a href="#url"
+                  class="title-head">Pet Sitting</a>
+              </h4>
+              <p>
+                Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.          </p>
+              <a href="#url" class="a-link">
+                Read More</a>
+            </div>
+          </div>
+          
+                      <div class="col-lg-4 col-sm-6 grids-feature">
+            <div class="area-box">
+              <div class="icon">
+                <span
+                  class="fa fa-sitemap"></span>
+              </div>
+              <h4><a href="#url"
+                  class="title-head">Dog Activities</a>
+              </h4>
+              <p>
+                Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.          </p>
+              <a href="#url" class="a-link">
+                Read More</a>
+            </div>
+          </div>
+          
+                      <div class="col-lg-4 col-sm-6 grids-feature mt-sm-0">
+            <div class="area-box mb-lg-0">
+              <div class="icon">
+                <span
+                  class="fa fa-shower"></span>
+              </div>
+              <h4><a href="#url"
+                  class="title-head">Pet Daycare</a>
+              </h4>
+              <p>
+                Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.          </p>
+              <a href="#url" class="a-link">
+                Read More</a>
+            </div>
+          </div>
+          
+                      <div class="col-lg-4 col-sm-6 grids-feature mt-lg-0">
+            <div class="area-box">
+              <div class="icon">
+                <span
+                  class="fa fa-user-md"></span>
+              </div>
+              <h4><a href="#url"
+                  class="title-head">Pet Grooming</a>
+              </h4>
+              <p>
+                Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.          </p>
+              <a href="#url" class="a-link">
+                Read More</a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!-- Content -->
+    
+    
+    <!-- Services -->
+    <section class="services1">
+      <div id="content-with-photo4-block" class="py-5">
+        <div class="container py-md-5 py-3 HPCWP">
+          <div class="cwp4-two row">
+            <div class="cwp4-image col-lg-6 pl-lg-5 mb-lg-0 mb-5">
+    
+              <img
+                src="https://wp.w3layouts.com/poochcare/wp-content/themes/Pooch-care/assets/images/ab.jpg"
+                class="img-fluid" alt="" />
+    
+            </div>
+    
+            <div class="cwp4-text col-lg-6">
+              <h6 class="sub-title">
+                Why Choose Us          </h6>
+              <h3 class="h3-title">
+                What We Offer for You          </h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Ut enim ad
+                  minim veniam, quis nostrud.Lorem ipsum dolor sit amet, consectetur adipisicingelit.          </p>
+    
+              <ul class="content-ul">
+                <li><span
+                    class="fa fa-check"></span>Certified Groomer            </li>
+                <li><span
+                    class="fa fa-check"></span>10 Years of Experience            </li>
+                <li><span
+                    class="fa fa-check"></span>Pet Lover            </li>
+                <li><span
+                    class="fa fa-check"></span>Customer Supports            </li>
+                <li><span
+                    class="fa fa-check"></span>Veterinary Help            </li>
+    
+              </ul>
+            </div>
+    
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services -->
+    
+    </header>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
