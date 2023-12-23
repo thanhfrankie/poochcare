@@ -1,0 +1,139 @@
+.pricing {
+  background-color: #f9f7fe;
+}
+.pricing .container {
+  width: 100%;
+}
+.pricing .container .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 25px;
+}
+.pricing .container .title h4 {
+  color: #f53626;
+  font-weight: 550;
+}
+.pricing .title h2 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  text-transform: capitalize;
+  color: #000c04;
+}
+.pricing .container .row {
+  margin-top: 60px;
+}
+.pricing .container .row .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: none;
+}
+.pricing .container .row .card1, .pricing .container .row card3 {
+  padding: 0;
+}
+.pricing .container .row .card .card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 40px;
+  gap: 15px;
+  background-color: white;
+  border: none;
+}
+.pricing .container .row .card2 .card-header {
+  transform: translateY(-70px);
+}
+.pricing .container .row .card2 {
+  box-shadow: 0 10px 30px 0 rgba(17, 17, 17, 0.09);
+  z-index: 1;
+}
+.pricing .container .row .card2 .card-header {
+  width: 100%;
+  background-color: #189a46;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  line-height: 1.5;
+}
+/* .pricing .container .row .card2 .card-header::before {
+    content: "";
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #189a46;
+    transform: translateY(-50%);
+    z-index: -1;
+    margin-top: 50px;
+} */
+.pricing .container .row .card .card-header .card-title {
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 600;
+}
+.pricing .container .row .card .card-header .card-price {
+  color: #189a46;
+}
+.pricing .container .row .card .card-header .card-price span {
+  font-size: 16px;
+  line-height: 25px;
+  color: #999;
+  font-weight: 400;
+}
+.pricing .container .row .card2 .card-header .card-title,
+.pricing .container .row .card2 .card-header .card-price,
+.pricing .container .row .card2 .card-header .card-price span {
+  color: white;
+}
+.pricing .container .row .card .card-header .card-price label {
+  font-size: 25px;
+  vertical-align: text-top;
+}
+.pricing .container .row .card2 .card-header .card-save {
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  color: #189a46;
+  border-radius: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 2;
+  font-size: 15px;
+}
+.pricing .container .row .card .card-body .card-text {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: normal;
+}
+.btn-buy,
+.btn {
+  background-color: #189a46;
+  padding: 12px 35px;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: capitalize;
+  font-weight: 400;
+  color: white;
+  border-radius: 10px;
+}
+.btn:hover {
+  color: #fff;
+  background-color: #116e32;
+  border-color: #116e32;
+}
+.pricing .container .row .card2 .btn-buy:hover {
+  background-color: #189a46;
+  border-color: #189a46;
+}
