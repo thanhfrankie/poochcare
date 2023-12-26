@@ -18,17 +18,11 @@ footer .footer__social li{
  display: inline;
  margin-right: 20px;
 }
-
-footer .copyright {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 20px;
-    padding-top: 20px;
-    border-top: 1px solid rgba(103, 99, 99, 0.14);
+footer .dash {
+    border: 1px solid rgba(103, 99, 99, 0.14)
 }
-footer .copyright a {
-    color: #f53626;
+footer .copyright {
+    text-align: center;
+    width: 100%;
+    border-top: 1px solid rgba(103, 99, 99, 0.14);
 }

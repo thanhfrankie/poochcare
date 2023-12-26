@@ -13,9 +13,5 @@
     height: 60px;
     border-radius: 10px;
     padding: 5px 10px;
-    border: 1px solid #CED4DA;
-    margin-right: 10px;
-}
-.subscribe .container .btn-sub {
-    height: 60px;
+    border: none;
 }

@@ -1,0 +1,24 @@
+footer {
+  background-color: #111111;
+}
+footer h3 {
+  color: #ffffff;
+}
+footer li,
+footer a,
+footer i {
+  color: #696969;
+}
+footer a:hover, footer i:hover {
+  color: #ffffff;
+}
+footer .footer__social li{
+    width: 10px;
+    height: 10px;
+}
+footer .footer__social  {
+    display: flex;
+    flex-direction: column;
+    justify-content: sp;
+ 
+}

@@ -1,0 +1,28 @@
+footer {
+  background-color: #111111;
+}
+footer h3 {
+  color: #ffffff;
+}
+footer li,
+footer a,
+footer i {
+  color: #696969;
+}
+footer a:hover, footer i:hover {
+  color: #ffffff;
+}
+footer .footer__social li{
+    width: 10px;
+    height: 10px;
+ display: inline;
+ mar
+}
+footer .footer__social  {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid blue;
+ 
+}
