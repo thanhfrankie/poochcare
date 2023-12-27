@@ -1,0 +1,24 @@
+.subscribe {
+  height: 250px;
+}
+.subscribe .subscribe__content {
+  text-align: center;
+}
+.subscribe .container h2 {
+  font-weight: 600;
+}
+.subscribe .container p {
+  font-size: 20px;
+  height: 100px;
+}
+.subscribe .container input {
+    width: 455px;
+    height: 60px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: 1px solid #CED4DA;
+    margin-right: 10px;
+}
+.subscribe .container .btn-sub {
+    height: 60px;
+}

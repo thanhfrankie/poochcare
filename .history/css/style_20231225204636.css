@@ -1,0 +1,71 @@
+/* Global */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Jost", sans-serif;
+}
+
+.container {
+  width: 75%;
+  /* width:1140px; */
+  margin: auto;
+}
+
+/* HEADER */
+header {
+  background-color: white;
+  padding: 20px 0;
+}
+
+header .header_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+header nav li a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  transition: all 0.5s;
+}
+header .header_content .header_logo {
+  text-decoration: none;
+  color: #189a46;
+  font-size: 35px;
+}
+header ul .active a {
+  color: #189a46;
+}
+header ul li a:hover {
+  color: #189a46;
+}
+.activities__icon {
+  display: inline-block;
+  margin-right: 130px;
+  width: 40px;
+  height: 40px;
+  background-color: lightgray;
+  color: #189a46;
+  line-height: 45px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+

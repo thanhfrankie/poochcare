@@ -1,0 +1,46 @@
+
+.sub-title {
+  color: red;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 2em;
+  letter-spacing: 1px;
+}
+.h3-title {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  text-transform: capitalize;
+}
+p {
+  color: #696969;
+  margin: 15px 0 35px 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24.5px;
+}
+
+.content-ul {
+  font-style: normal;
+  /* font-weight: normal; */
+  font-size: 16px;
+  line-height: 26px;
+  margin: 15px 0;
+  font-weight: 600;
+}
+span.fa.fa-check{
+  color: #189a46;
+  margin-right: 12px;
+  background: rgba(147, 107, 232, 0.05);
+  font-size: 10px;
+  padding: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.service__content {
+  justify-content: flex-start;
+  align-items: center;
+  padding: 70px 0;
+}
