@@ -1,0 +1,52 @@
+/* Light theme */
+#myBody {
+    background-color: white;
+  }
+  #switchButton {
+    /* background-color: white; */
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+  }
+  #switchButton .fa-sun {
+    display: none;
+  }
+  #switchButton .fa-moon {
+    display: block;
+  }
+  
+  /* Dark Theme*/
+  .dark#header {
+    background-color: #151515;
+  }
+   .dark .activities__icon {
+    background-color: #222;
+   }
+  .dark#switchButton {
+    color: rgba(147, 107, 232, 0.05);
+  }
+  .dark#ul{
+    color: white;
+   }
+  .dark #switchButton .fa-sun {
+    display: block;
+    color: white;
+  }
+  
+  .dark #switchButton .fa-moon {
+    display: none;
+  }
+  .dark.about-us {
+    
+  }
+  .dark.subscribe {
+    background-color: #151515;
+  }
+  .dark.subscribe h2 {
+    color: white;
+  }
