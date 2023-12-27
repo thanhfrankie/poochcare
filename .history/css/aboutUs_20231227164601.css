@@ -1,0 +1,32 @@
+.about-us h4 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  /* line-height: 2em; */
+  letter-spacing: 1px;
+  color: red;
+}
+.about-us h1 {
+  text-align: center;
+  font-weight: 530;
+}
+.about-us .paragraph {
+  
+  text-align: center;
+  font-size: 20px;
+  margin: 30px 0;
+}
+.about-us a{
+  display: inline-block;
+  justify-content: center;
+  display: flex;
+  color: black;
+  border-bottom : 2px solid green;
+  border-radius :0;
+  padding: 0;
+  trans
+}
+.about-us a:hover{
+  background-color:rgba(147, 107, 232, 0.05);
+}

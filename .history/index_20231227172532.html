@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pooch Care</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- Font Jost -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="magnific-popup/magnific-popup.css" />
+    <link rel="stylesheet" href="./Lib/PopUp/magnific-popup.css" />
+    <!-- OWl CAROUSEL -->
+    <link rel="stylesheet" href="./css/owl/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl/owl.theme.default.min.css" />
+    <!-- Header CSS -->
+    <link rel="stylesheet" href="./css/header.css">
+    <!-- Dark Light theme CSS -->
+    <!-- About CSS -->
+    <link rel="stylesheet" href="./css/aboutUs.css">
+     <!-- Features CSS -->
+     <link rel="stylesheet" href="./css/features.css">
+     <!-- services CSS -->
+     <link rel="stylesheet" href="./css/services.css">
+     <!-- number CSS -->
+     <link rel="stylesheet" href="./css/number.css">
+    <!-- Pricing CSS -->
+    <link rel="stylesheet" href="./css/pricing.css" />
+    <!-- pet food CSS (em đặt tên nutrition hay pet-nutrition hay pet__nutrition nó không cho đặt vậy ạ) -->
+    <link rel="stylesheet" href="./css/petfood.css" />
+    <!-- Testimonials CSS -->
+    <link rel="stylesheet" href="./css/testimonials.css" />
+    <!-- Subscribe CSS -->
+    <link rel="stylesheet" href="./css/subscribe.css" />
+    <!-- footer CSS -->
+    <link rel="stylesheet" href="./css/footer.css" />
+   
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+<header>
+
+<div class="container">
+  <div class="header_content">
+    <a class="header_logo" href="#">
+      <!-- <i class="fa-brands fa-atlassian"></i> -->
+      <!-- <p></p>: block => xử lý css để thẻ p nằm chung hàng với i -->
+      <!-- span: inline => nằm chung hàng với i -->
+      <span>Pooch Care</span>
+    </a>
+    <nav>
+      <!-- ul>li*6>a -->
+      <ul>
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">about</a>
+        </li>  
+        <li><a href="#">Services</a>
+        </li>
+        <li><a href="#">Galerry</a>
+        </li>
+        <li><a href="#">Page</a>
+        </li>
+        <li><a href="#">Contact</a>
+        </li>
+      </ul>
+      <div class="activities__icon">
+
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <button class="btn" id="switchButton" title="Click to switch theme">
+          <i class="far fa-moon"></i>
+          <i class="far fa-sun"></i>
+        </button>
+    </nav>
+  </div>
+</div>
+</header>
+
+<!-- Main slider -->
+<!-- <section class="w3l-main-slider" id="home">
+  <div class="companies20-content">
+    <div class="owl-one owl-carousel owl-theme">
+      <div class="item">
+        <li>
+          <div class="slider-info banner-view">
+            <style>
+              .w3l-main-slider .banner-view {
+                background: url(https://wp.w3layouts.com/poochcare/wp-content/themes/Pooch-care/assets/images/banner1.jpg);
+                background-size: cover;
+              }
+            </style>
+            <div class="banner-info">
+              <div class="container">
+                <div class="banner-info-bg text-left">
+                  <h5 class="BannerSlider">Quality Things for Loving Pets</h5>
+                  <p>Keeps your Pet Smiling</p>
+                  <a class="btn btn-style btn-white mt-sm-5 mt-4 mr-2" href="about">
+                    Read More</a>
+                  <a class="btn btn-style border-btn mt-sm-5 mt-4" href="contact">
+                    Contact Us</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </div>
+      <div class="item">
+        <li>
+          <div class="slider-info  banner-view banner-top1">
+            <style>
+              .w3l-main-slider .banner-top1 {
+                background: url(https://wp.w3layouts.com/poochcare/wp-content/themes/Pooch-care/assets/images/banner2.jpg);
+                background-size: cover;
+              }
+            </style>
+            <div class="banner-info">
+              <div class="container">
+                <div class="banner-info-bg ml-lg-auto">
+                  <h5>Delivering happiness for Pets</h5>
+                  <p>For the love of pets </p>
+                  <a class="btn btn-style btn-white mt-sm-5 mt-4 mr-2" href="about">
+                    Read More</a>
+                  <a class="btn btn-style border-btn mt-sm-5 mt-4"
+                    href="contact">
+                    Contact Us</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </div>
+      <div class="item">
+        <li>
+          <div class="slider-info banner-view banner-top2">
+            <style>
+              .w3l-main-slider .banner-top2 {
+                background: url(https://wp.w3layouts.com/poochcare/wp-content/themes/Pooch-care/assets/images/banner3.jpg);
+                background-size: cover;
+              }
+            </style>
+            <div class="banner-info">
+              <div class="container">
+                <div class="banner-info-bg text-left">
+
+                  <h5>Quality Things for Loving Pets</h5>
+                  <p>Keeps your Pet Smiling</p>
+                  <a class="btn btn-style btn-white mt-sm-5 mt-4 mr-2" href="about">
+                    Read More</a>
+                  <a class="btn btn-style border-btn mt-sm-5 mt-4"
+                    href="contact">Contact Us</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </div>
+      <div class="item">
+        <li>
+          <div class="slider-info banner-view banner-top3">
+            <style>
+              .w3l-main-slider .banner-top3 {
+                background: url(https://wp.w3layouts.com/poochcare/wp-content/themes/Pooch-care/assets/images/banner4.jpg);
+                background-size: cover;
+              }
+            </style>
+            <div class="banner-info">
+              <div class="container">
+                <div class="banner-info-bg ml-lg-auto">
+                  <h5>Delivering happiness for Pets</h5>
+                  <p>We help your Projects</p>
+                  <a class="btn btn-style btn-white mt-sm-5 mt-4 mr-2"
+                    href="about">Read More</a>
+                  <a class="btn btn-style border-btn mt-sm-5 mt-4"
+                    href="contact">
+                    Contact Us</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- About us -->
+<section class="about-us">
+  <div class="container" >
+    <h4>ABOUT US</h4>
+    <h1>We Love Your Pets Like They Are Our Own</h1>
+    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic odio voluptatem tenetur consequatur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis.</p>
+    <a class="button-1" href="url">Read more</a>
+  </div>
+</section>
+
+<!-- Features-->
+<!-- <section class="features py-5" id="features">
+<div class="container pt-lg-5 pt-md-4 HPServices">
+  <div class="grids-area-hny main-cont-wthree-fea row justify-content-center">
+    <div class="col-lg-4 col-sm-6 grids-feature">
+      <div class="area-box">
+        <div class="icon">
+            <i class="fa-regular fa-snowflake"></i>
+        </div>
+        <h4><a href="#url" class="title-head">
+            Dog Walking</a></h4>
+        <p>
+          Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.</p>
+        <a href="#url" class="a-link">
+          Read More</a>
+      </div>
+    </div>
+   <div class="col-lg-4 col-sm-6 grids-feature mt-sm-0">
+      <div class="area-box mb-lg-0">
+        <div class="icon">
+          <span
+            class="fa fa-cutlery"></span>
+        </div>
+        <h4><a href="#url"
+            class="title-head">Healthy Meals</a>
+        </h4>
+        <p>
+          Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.          </p>
+        <a href="#url" class="a-link">
+          Read More</a>
+      </div>
+    </div>
+    
+                <div class="col-lg-4 col-sm-6 grids-feature mt-lg-0">
+      <div class="area-box mb-lg-0">
+        <div class="icon">
+          <span
+            class="fa fa-sign-language"></span>
+        </div>
+        <h4><a href="#url"
+            class="title-head">Pet Sitting</a>
+        </h4>
+        <p>
+          Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.        
+          </p>
+        <a href="#url" class="a-link">
+          Read More</a>
+      </div>
+    </div>
+    
+     <div class="col-lg-4 col-sm-6 grids-feature">
+      <div class="area-box">
+        <div class="icon">
+          <span
+            class="fa fa-sitemap"></span>
+        </div>
+        <h4><a href="#url"
+            class="title-head">Dog Activities</a>
+        </h4>
+        <p>
+          Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.
+        </p>
+        <a href="#url" class="a-link">
+          Read More</a>
+      </div>
+    </div>
+        <div class="col-lg-4 col-sm-6 grids-feature mt-sm-0">
+      <div class="area-box mb-lg-0">
+        <div class="icon">
+          <span
+            class="fa fa-shower"></span>
+        </div>
+        <h4><a href="#url"
+            class="title-head">Pet Daycare</a>
+        </h4>
+        <p>
+          Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo. </p>
+        <a href="#url" class="a-link">
+          Read More
+        </a>
+      </div>
+    </div>
+        <div class="col-lg-4 col-sm-6 grids-feature mt-lg-0">
+      <div class="area-box">
+        <div class="icon">
+          <span
+            class="fa fa-user-md">
+          </span>
+        </div>
+        <h4><a href="#url"
+            class="title-head">Pet Grooming</a>
+        </h4>
+        <p>
+          Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo. </p>
+        <a href="#url" class="a-link">
+          Read More</a>
+      </div>
+    </div>
+    
+  </div>
+</div>
+</section> -->
+<section class="features">
+  <div class="container">
+  <div class="row">
+    <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card card__content">
+        
+          <div class="card-body">
+              <i class="fa-regular fa-snowflake"></i>
+                <h3 class="card-title">Dog Walking
+                </h3>
+                <p class="card-text">Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.</p>
+                <a href="#url" class="a-link">
+                  Read More</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card card__content">
+        
+          <div class="card-body">
+              <i class="fa-solid fa-utensils"></i>
+                <h3 class="card-title">Healthy Meals
+                </h3>
+                <p class="card-text">Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.</p>
+                <a href="#url" class="a-link">
+                  Read More</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card card__content">
+        
+          <div class="card-body">
+              <i class="fa-solid fa-hands"></i>
+                <h3 class="card-title">Pet Sitting
+
+                </h3>
+                <p class="card-text">Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.</p>
+                <a href="#url" class="a-link">
+                  Read More</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card card__content">
+       
+          <div class="card-body">
+              <i class="fa-solid fa-sitemap"></i>
+                <h3 class="card-title">Dog Activities
+
+                </h3>
+                <p class="card-text">Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.</p>
+                <a href="#url" class="a-link">
+                  Read More</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card card__content">
+       
+          <div class="card-body">
+              <i class="fa-solid fa-shower"></i>
+                <h3 class="card-title">Pet Daycare
+
+                </h3>
+                <p class="card-text">Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.</p>
+                <a href="#url" class="a-link">
+                  Read More</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card card__content">
+          <div class="card-body">
+              <i class="fa-solid fa-user-doctor"></i>
+                <h3 class="card-title">Pet Grooming
+
+                </h3>
+                <p class="card-text">Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.</p>
+                <a href="#url" class="a-link">
+                  Read More</a>
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
+</div>
+
+</section>
+<!-- Content -->
+
+
+<!-- Services -->
+<section class="services1">
+<div id="content-with-photo4-block" class="py-5">
+  <div class="container py-md-5 py-3 HPCWP">
+    <div class="cwp4-two row">
+      <div class="cwp4-image col-lg-6 pl-lg-5 mb-lg-0 mb-5">
+
+        <img
+          src="https://wp.w3layouts.com/poochcare/wp-content/themes/Pooch-care/assets/images/ab.jpg"
+          class="img-fluid" alt="" />
+
+      </div>
+
+      <div class="cwp4-text col-lg-6 service__content">
+        <h6 class="sub-title">
+          Why Choose Us         
+         </h6>
+        <h3 class="h3-title">
+          What We Offer for You  
+        </h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad
+            minim veniam, quis nostrud.Lorem ipsum dolor sit amet, consectetur adipisicingelit.</p>
+
+        <ul class="content-ul">
+          <li>
+            <span class="fa fa-check"></span>Certified Groomer
+          </li>
+          <li>
+            <span
+              class="fa fa-check"></span>10 Years of Experience
+            </li>
+          <li>
+            <span
+              class="fa fa-check">
+            </span>Pet Lover
+          </li>
+          <li>
+            <span class="fa fa-check">
+          </span>Customer Supports</li>
+          <li><span
+              class="fa fa-check"></span>Veterinary Help            </li>
+
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</div>
+</section>
+    <!-- NUMBER  -->
+    <section class="number">
+      <div class="container mt-5 py-5 ">
+        <div class="row number__content">
+          <div class="col col-sm-6 col-md-3 col-lg-3">
+            <p class="counter">730</p>
+            <p>Happy Clients</p>
+          </div>
+          <div class="col col-sm-6 col-md-3 col-lg-3">
+            <p class="counter">80</p>
+            <p>Professionals</p>
+          </div>
+          <div class="col col-sm-6 col-md-3 col-lg-3">
+            <p class="counter">812</p>
+            <p>Adopted Pets</p>
+          </div>
+          <div class="col col-sm-6 col-md-3 col-lg-3">
+            <p class="counter">90</p>
+            <p>Awards</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Pricing -->
+    <section class="pricing" id="pricing">
+      <div class="container mt-5 py-5">
+        <div class="title">
+          <h4>Our Plans</h4>
+          <h2>Affordable Packages</h2>
+        </div>
+        <div class="row mt-6 row-price">
+          <!-- Pricing Card 1 -->
+          <div class="col-lg-4 card1">
+            <div class="card card1">
+              <div class="card-header">
+                <h5 class="card-title">Free Package</h5>
+                <h3 class="card-price">
+                  <label for=""> $ </label>0<span> /month</span>
+                </h3>
+              </div>
+              <div class="card-body">
+                <p class="card-text">5 Dog Walk</p>
+                <p class="card-text">3 Vet Visit</p>
+                <p class="card-text">3 Pet Spa</p>
+                <p class="card-text">Free Supports</p>
+                <p class="card-text">Customer Support</p>
+                <a href="#" class="btn btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pricing Card 2 -->
+          <div class="col-lg-4">
+            <div class="card card2">
+              <div class="card-header">
+                <div class="card-save">Save 10%</div>
+                <h5 class="card-title">Standard Package</h5>
+                <h3 class="card-price">
+                  <label for="">$</label>39
+                  <span>/month</span>
+                </h3>
+              </div>
+              <div class="card-body">
+                <p class="card-text">5 Dog Walk</p>
+                <p class="card-text">3 Vet Visit</p>
+                <p class="card-text">3 Pet Spa</p>
+                <p class="card-text">Free Supports</p>
+                <p class="card-text">Customer Support</p>
+                <a href="#" class="btn btn-buy">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pricing Card 3 -->
+          <div class="col-lg-4 card3">
+            <div class="card">
+              <div class="card-header">
+                <h5 class="card-title">Pro Package</h5>
+                <h3 class="card-price">
+                  <label for="">$</label>89
+                  <span>/month</span>
+                </h3>
+              </div>
+              <div class="card-body">
+                <p class="card-text">5 Dog Walk</p>
+                <p class="card-text">3 Vet Visit</p>
+                <p class="card-text">3 Pet Spa</p>
+                <p class="card-text">Free Supports</p>
+                <p class="card-text">Customer Support</p>
+                <a href="#" class="btn btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PET NUTRITION -->
+    <section class="petfood">
+      <div class="container mt-5 py-5">
+        <div class="col">
+          <div class="title">
+            <h5>BETTER PET NUTRITION</h5>
+            <h2>The Finest Fresh Food And All Your Pet Needs.</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem
+              ipsum dolor sit amet elit consec tetur adipisi elit. Lorem ipsum
+              dolor sit amet elit consec tetur adipisi elit. Iure voluptatibus
+              explicabo officia.
+            </p>
+          </div>
+          <!-- <a href="./img/petfood.png" class="open-popup-link popup-with-zoom-anim">
+            <i class="fa-solid fa-play"></i>
+          </a> -->
+          <!-- <img src="./img/petfood.png" alt="pet-food"> -->
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/JXUTJNv4j6A?si=1nzgvqwKbkVzJ4BS"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <!-- <div class="video__item">
+            <a
+              href="#small-dialog"
+              class="open-popup-link popup-with-zoom-anim text-center"
+            >
+              <span class="fa-solid fa-play"></span>
+            </a>
+          </div>
+          <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+            <iframe
+              src="https://www.youtube.com/embed/JXUTJNv4j6A?si=1nzgvqwKbkVzJ4BS"
+              frameborder="0"
+              allow="autoplay; fullscreen"
+              allowfullscreen
+            ></iframe>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <!-- TESTIMONIALS -->
+    <section class="testimonial">
+      <div class="container mt-4 py-4 testimonial-container">
+        <div class="title">
+          <p>TESTIMONIALS</p>
+          <h2>Happy Clients & Feedbacks</h2>
+        </div>
+        <div class="row testimonial__content">
+          <div class="owl-carousel owl-theme">
+            <div class="col col-sm-12 col-md-6 col-lg-6 testimonial__item">
+              <div class="testimonial__body">
+                <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                <p>
+                  Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum
+                  ac aliquam. Phasellus justo quam.
+                </p>
+              </div>
+              <div class="testimonial__footer">
+                <img src="./img/f1.jpg" alt="" />
+                <div>
+                  <p class="name">John wilson</p>
+                  <p class="example">Example City</p>
+                </div>
+              </div>
+            </div>
+            <div class="col col-sm-6 col-md-6 col-lg-6 testimonial__item">
+              <div class="testimonial__body">
+                <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                <p>
+                  Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum
+                  ac aliquam. Phasellus justo quam.
+                </p>
+              </div>
+              <div class="testimonial__footer">
+                <img src="./img/f2.jpg" alt="" />
+
+                <p class="name">John wilson</p>
+                <p class="example">Example City</p>
+              </div>
+            </div>
+            <div class="col col-sm-6 col-md-6 col-lg-6 testimonial__item">
+              <div class="testimonial__body">
+                <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                <p>
+                  Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum
+                  ac aliquam. Phasellus justo quam.
+                </p>
+              </div>
+              <div class="testimonial__footer">
+                <img src="./img/f3.jpg" alt="" />
+
+                <p class="name">John wilson</p>
+                <p class="example">Example City</p>
+              </div>
+            </div>
+            <div class="col col-sm-6 col-md-6 col-lg-6 testimonial__item">
+              <div class="testimonial__body">
+                <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                <p>
+                  Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum
+                  ac aliquam. Phasellus justo quam.
+                </p>
+              </div>
+              <div class="testimonial__footer">
+                <img src="./img/f4.jpg" alt="" />
+                <p class="name">John wilson</p>
+                <p class="example">Example City</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Subscribe -->
+    <section class="subscribe">
+      <div class="container mt-5 py-5">
+        <div class="row subscribe__content">
+          <div class="subscribe__header">
+            <h2>Stay Updated!</h2>
+            <p>
+              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+              posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus
+              turpis sodales quis. Integer sit amet mattis quam.
+            </p>
+            <input
+              type="email"
+              name=""
+              id="subscribe"
+              placeholder="Enter your email..."
+            />
+            <button class="btn btn-success btn-sub">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container mt-5 py-5">
+        <div class="col">
+          <div class="row footer_info">
+            <div class="col-lg-6">
+              <h3>Contact information</h3>
+              <ul class="footer__contact">
+                <li>
+                  Address : #135 block, Barnard St. Brooklyn, London 10036, UK
+                </li>
+                <li>
+                  Phone :
+                  <span>
+                    <a href="#">+(12)234-11-24</a>
+                  </span>
+                </li>
+                <li>
+                  Email :
+                  <span>
+                    <a href="#">example@mail.com</a>
+                  </span>
+                </li>
+              </ul>
+              <div class="footer__social">
+                <ul>
+                  <li>
+                    <a href="https://www.facebook.com/w3layouts/">
+                      <i class="fa-brands fa-facebook-f"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/W3layouts"
+                      ><i class="fa-brands fa-twitter"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://dribbble.com/w3layouts"
+                      ><i class="fa-brands fa-square-dribbble"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://myaccount.google.com/intro/profile"
+                      ><i class="fa-brands fa-google"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-sm-4">
+                  <h3>Archives</h3>
+                  <ul>
+                    <li>
+                      <a href="#"> December 2020 </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-sm-4">
+                  <h3>Categories</h3>
+                  <ul>
+                    <li>
+                      <a href="#"> Animals </a>
+                    </li>
+                    <li>
+                      <a href="#"> Pets </a>
+                    </li>
+                    <li>
+                      <a href="#"> Pets care </a>
+                    </li>
+                    <li>
+                      <a href="#"> Uncategorized </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-sm-4">
+                  <h3>Meta</h3>
+                  <ul>
+                    <li>
+                      <a href="#"> Log in </a>
+                    </li>
+                    <li>
+                      <a href="#"> Entries feed </a>
+                    </li>
+                    <li>
+                      <a href="#"> Comments feed </a>
+                    </li>
+                    <li>
+                      <a href="#"> WordPress.org </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="copyright">
+            <span
+              >  <i class="fa-regular fa-copyright"></i> 2023 All Rights Reserved by
+              <a href="https://w3layouts.com/">W3Layouts.</a></span
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <a href="#" class="backToTop cd-top text-replace js-cd-top">
+      <i class="fa-solid fa-chevron-up"></i>
+    </a>
+      
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- slick carousel  -->
+    <!-- <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      // Initialize Slick Carousel
+      $(".slick-carousel").slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        dots: true,
+        prevArrow: '<button type="button" class="slick-prev">&#9665;</button>',
+        nextArrow: '<button type="button" class="slick-next">&#9655;</button>',
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 2,
+            },
+          },
+          {
+            breakpoint: 576,
+            settings: {
+              slidesToShow: 1,
+            },
+          },
+        ],
+      });
+    </script> -->
+
+    <!--Magnific Popup core JS  -->
+    <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <!-- Magnific Popup core JS file
+    <script src="./Lib/PopUp/jquery.magnific-popup.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".popup-with-zoom-anim").magnificPopup({
+          type: "inline",
+
+          fixedContentPos: false,
+          fixedBgPos: true,
+
+          overflowY: "auto",
+
+          closeBtnInside: true,
+          preloader: false,
+
+          midClick: true,
+          removalDelay: 300,
+          mainClass: "my-mfp-zoom-in",
+        });
+      });
+    </script> -->
+    <!-- OWL CAROUSEL -->
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 30,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          500: {
+            items: 2,
+          },
+          // 1000: {
+          //   items: 3,
+          // },
+          // 1200: {
+          //   items: 4,
+          // },
+        },
+      });
+    </script>
+    <!-- Back to top JS -->
+     <script src="./js/backToTopMain.js"></script>
+     <script src="./js/backToTopUtil.js"></script>
+     <!-- Count up JS -->
+     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+      <script src="./js/jquery.countup.js"></script>
+    <script>
+        // COUNT UP
+        $('.counter').countUp();
+    </script>
+   
+  </body>
+</html>

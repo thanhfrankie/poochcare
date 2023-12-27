@@ -1,0 +1,13 @@
+.slider .container .slider__content {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slider .container .slider__content .slide{
+    background: url(https://wp.w3layouts.com/poochcare/wp-content/themes/Pooch-care/assets/images/banner1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}

@@ -1,0 +1,25 @@
+.number {
+    background-color: #189A46;
+  
+}
+.number__content{
+border: 1px solid blue;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+text-align: center;
+}
+.number__content p {
+    color: white;
+    font-size: 25px;
+}
+.number__content .counter {
+    font-size: 45px;
+    font-weight: bold;
+}
+@media (max-width: 415px){
+    .number__content p{
+        font-size: 15px;
+    }
+}
