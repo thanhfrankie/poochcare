@@ -1,0 +1,98 @@
+/* Light theme */
+#myBody {
+    background-color: white;
+  }
+  #switchButton {
+    /* background-color: white; */
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+  }
+  #switchButton .fa-sun {
+    display: none;
+  }
+  #switchButton .fa-moon {
+    display: block;
+  }
+  
+  /* Dark Theme*/
+  .dark#header {
+    background-color: #151515;
+  }
+  .dark#header .activities__icon {
+    background-color: #222;
+   }
+  .dark#switchButton {
+    color: rgba(147, 107, 232, 0.05);
+  }
+  .dark#header ul .li{
+    color: white;
+   }
+  .dark #switchButton .fa-sun {
+    display: block;
+    color: white;
+  }
+  
+  .dark #switchButton .fa-moon {
+    display: none;
+  }
+  .dark.about-us {
+    background-color: #151515;
+  }
+  .dark.about-us h1,.dark.about-us a {
+    color: white;
+  }
+  .dark.features {
+    background-color: #222222;
+   }
+   .dark.features  h3, .dark.features p, .dark.features .a-link {
+color: white;
+   }
+   .dark.features .card{
+    background-color: #151515;
+   }
+   .dark.features .features-card:hover {
+    background-color: #222222;
+    color: white;
+   }
+   .dark#services {
+    background-color: #222222;
+   }
+   .dark#services h3,    .dark#services ul li {
+    color: white;
+   }
+   .dark.pricing {
+    background-color: #222222;
+   }
+   .dark#pricing .card-theme {
+    background-color: #151515;
+   }
+   .dark#pricing .card-body .card-text{
+    color: #afafaf;
+   }
+   .dark#pricing h2,   .dark#pricing h5 {
+    color: white;
+   }
+   .dark#petfood {
+    background-color: #151515;
+   }
+   .dark#petfood h2 {
+    color: white;
+   }
+   .dark#testimonial {
+    background-color: #222222;
+   }
+   .dark#testimonial h2 {
+    color: white;
+   }
+  .dark.subscribe {
+    background-color: #151515;
+  }
+  .dark.subscribe h2 {
+    color: white;
+  }

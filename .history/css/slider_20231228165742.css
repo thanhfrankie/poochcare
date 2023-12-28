@@ -1,0 +1,31 @@
+.slider {
+    width: 100%;
+}
+.slide {
+    background-image: url(https://wp.w3layouts.com/poochcare/wp-content/themes/Pooch-care/assets/images/banner1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.slide1 {
+    
+}
+.slider .container .slider__content {
+
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    width: 100%;
+}
+.slick-content {
+    width: 100%;
+}
+.slider .container .slider__content .slide{
+    background-image: url(https://wp.w3layouts.com/poochcare/wp-content/themes/Pooch-care/assets/images/banner1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
