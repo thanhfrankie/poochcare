@@ -42,9 +42,7 @@
 .dark#header nav #ul li a {
   color: white;
 }
-.dark#header .activities__icon:hover {
-  background-color: #189A46;
-}
+.dark#header.activities__icon
 .dark#header nav #ul li a:hover {
   color: #189A46;
 }
